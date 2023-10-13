@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Process</string>
+	<string>HR COSMO EMPLOYEE</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>process</string>
+	<string>HR COSMO EMPLOYEE</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -47,5 +47,14 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<!-- Permissions -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To Provide the functionality to upload images menually</string>
+	<key>NSCameraUsageDescription</key>
+	<string>To Provide the functionality to click images menually</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs access to location when open.</string>
+	<!-- <key>NSLocationAlwaysUsageDescription</key> -->
+	<!-- <string>This app needs access to location when in the background.</string> -->
 </dict>
 </plist>
